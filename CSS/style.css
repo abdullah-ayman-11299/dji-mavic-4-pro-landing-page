@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+/* Website color */
+.bg-white{
+    background-color: white;
+}
+.bg-purple-secondary{
+    background-color: #F5F3FF;
+}
+.bg-purple-primary{
+    background-color: #8E51FF;
+}
+.bg-red{
+    background-color: #FFE2E2;
+}
+.bg-gray{
+    background-color: #E5E7EB;
+}
+.bg-yellow{
+    background-color: #F0B100;
+}
+.bg-dark{
+    background-color: #101828;
+}
+.text-primary{
+    color: #7f22fe;
+}
+.text-white{
+    color: white;
+}
+.text-green{
+    color: #00a63e;
+}
+.text-gray{
+    color:#6A7282;
+}
+.text-red{
+    color: #e7000b;
+}
+.logo img{
+    width: 42px;
+    height: 42px;
+}
+.line:hover div{
+    display: block;
+    width: 100%;
+}
+.line:hover a{
+    color: #8E51FF;
+}
+.line:hover div{
+    display: block;
+    width: 100%;
+}
+.line:hover a{
+    color: #8E51FF;
+}
+.line div{
+    width: 0%;
+    height: 2px;
+    background-color: #8E51FF;
+    transition: width 0.3s;
+}
+
+div.line div.active{
+    width: 100%;
+}
+
+body .border-purple-primary{
+    border-color: #8E51FF;
+}
+body .border-purple-secondary{
+    border-color: #dedefc;
+}
+body .border-gray{
+    border-color: #d9d9db;
+}
+
+/* Home Section */
+.product-img{
+    height: 500px;
+}
+
+.line-height{
+    line-height: 1.7;
+}
+
+table{
+    border-collapse: collapse;
+}
+.z-index-9999{
+    z-index: 9999;
+}
+.z-index-999{
+    z-index: 999;
+}
+.top-8{
+    top: 8%;   
+}
+.left-8{
+    left: 8%;
+}
+.left-13{
+    left: 13%;
+}
+.img-icon{
+    width:  56px;
+    height: 56px;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+}
+.check-icon{
+    width: 16px;
+    height: 16px;
+}
+.icon-fix-pos{
+
+    position: relative;
+    top: 5px;
+}
+
+.hover{
+    transition: background 0.1s;
+}
+.load-button:hover{
+    background-color: white;
+    border: 1px solid #8E51FF;
+}
+.load-button:hover a{
+    color: #8E51FF;
+}
+
+.img-hover img{
+  transition: transform 0.2s ease-in-out; 
+}
+.img-hover:hover img{
+    transform: scale(1.05);
+}
+
+.acc-button{
+    transition: background 0.1s ease-in-out;
+}
+.acc-button a{
+    transition: color 0.1s ease-in-out;
+}
+
+.acc-button:hover{
+    background-color: #8E51FF;
+}
+.acc-button:hover a{
+    color: white;
+}
+
+.facebook-button ,.twitter-button, .instagram-button,.youtube-button{
+    cursor: pointer;
+    background-color: #1e2939
+}
+.facebook-button:hover{
+    background-color: blue;
+}
+.twitter-button:hover{
+    background-color: deepskyblue;
+}
+.instagram-button:hover{
+    background-color: #E4405F;
+}
+.youtube-button:hover{
+    background-color: red;
+}
+.text-hover-white:hover{
+    color: white;
+}
+/* Website OLD */
+/* 
+.container{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+.nav{
+    background-color: #F5F3FF;
+    width: 100%;
+    position: fixed;
+}
+.nav-content{
+    width: 80%;
+    margin: auto;
+    padding: 20px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav .logo img{
+    width: 42px;
+    height: 42px;
+}
+.nav ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav li:first-child a{
+    color: #8E51FF;
+}
+
+.nav li:first-child div{
+    width: 100%;
+}
+
+.nav .logo span{
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+Home section
+.home {
+    padding: 100px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+}
+.home-img{
+    border: 1px solid #CBCFD3;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.home-img img{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.badge{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.badge-purple{
+    background-color: #8E51FF;
+    color: white;
+}
+
+.home-content{
+    padding: 10px 80px;
+    
+}
+
+.home-content span{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 9px;
+    border-radius: 15px;
+    margin-right: 15px;
+} */
